@@ -1,70 +1,152 @@
-
-     <head>
-        <title>Bridges of the American West</title>
-     </head>
-    <body style="background-image: url(../AmericanBridges/images/beige011.jpg); background-color: beige; font-family: arial, sans-serif; margin: 36px;">
-	    
-	    <h1>Bridges of the American West</h1>
-		
-     <!--This is my horizontal rule--> 
-	    <hr/> 
-	<h2 style="color: darkgreen;">Welcome to Bridges of the American West</h2> 
-    <h4>Bridges Home</h4> 
-	    <ul style="list-style-type: square;"> 
-		<li><a href="../AmericanBridges/E-index.html">Bridges Home Page</a></li>
-        <li>About Bridges</li>
-        <li>Western Bridges</li>
-        <li>Resources</li>
-        </ul>
-    <h4>About Bridges</h4> 
-	    <ul style="list-style-type: square;">
-        <li>Nature's Bridges</li>
-		    <ul>
-            <li>Natural Bridge</li>
-            <li>Rainbow Bridge</li>
-            <li>Sipapu Bridge</li>
-            </ul>
-		</li>
-        <li>Ancient/Medieval Bridges</li>
-		    <ul class="nested">
-            <li>Lugou Qiao</li>
-            <li>Ponte di Rialto</li>
-            <li>Pons Cestius</li>
-            </ul>
-		</li>
-        <li>Modern Bridges</li>
-		    <ul>
-            <li>Akashi-Kaikyo Ohashi<li>
-            <li>Deception Bridge</li>
-            <li>Lake Pontchartrain Causeway</li>
-            </ul>
-		</li>
-        </ul>
-    <h4>Western Bridges</h4> 
-	    <ul style="list-style-type: square;">
-       <li>Arch Bridges</li>
-	      <ul>
-          <li>Bixby Bridge</li>
-          <li>London Bridge</li>
-          <li>Navajo Bridge</li>
-          </ul>
-	   </li>
-       <li>Beam Bridges</li>
-	      <ul>
-          <li>Fishing Bridge</li>
-          <li>Camas Prairie Railroad Trestle</li>
-          <li>Hood Canal Bridge</li>
-          </ul> 
-		</li>
-       <li>Suspension Bridges</li>
-	      <ul>
-          <li>Golden Gate Bridge</li>
-          <li>Royal Gorge Bridge</li>
-          <li>Tacoma Narrows Bridge</li>
-          </ul>
-	    </li>
-	   </ul>
-    <h4>Resources</h4> 
-    <h4>Contact Us</h4>
-    </body>
-</html>
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Bridges of the American West</title>
+    <style type="text/css">
+        body {
+            background-image: url(images/beige011.jpg);
+            background-color: #f5f5dc;
+            margin: 36px;
+            background-attachment: fixed;
+            font-family: arial, helvetica;
+            font-size: 10pt;
+        }
+        p {
+            margin: 0pt;
+            margin-bottom: 10pt;
+            width: 92%;
+        }
+        div.base {
+            border: 1px solid #000;
+            width: 725px;
+            margin: auto;
+            background-color: #fff;
+            background-image: url(images/bridge_banner.gif);
+            background-repeat: no-repeat;
+            padding: 12px;
+            padding-left: 138px;
+            padding-top: 0px;
+        }
+        h2 {
+            color: #000066;
+            font-size: 14pt;
+        }
+        ul {
+            list-style-type: square;
+        }
+        table.explore {
+            width: 92%;
+            background-color: #fff;
+            border: none;
+        }
+        td.bord {
+            border-top: solid 2pt #666;
+        }
+        th {
+            width: 33%;
+            margin-top: 0px;
+            margin-bottom: 6px;
+            text-align: left;
+            font-size: 12pt;
+        }
+        td {
+            vertical-align: top;
+            width: 33%;
+        }
+        table.menu {
+            background-color: transparent;
+            width: 100%;
+            margin: 66px 25px 0px 25px;
+        }
+        td.menu {
+            font-weight: bold;
+            width: 119px;
+            text-align: center;
+            vertical-align: center;
+        }
+        a.menu {
+            color: #fff;
+            text-decoration: none;
+        }
+        td.section {
+            color: #000066;
+        }
+        td.sectiondash2 {
+            padding-left: 12pt;
+            border-left: dashed 1pt gray;
+            color: #006600;
+        }
+        td.sectiondash3 {
+            padding-left: 12pt;
+            border-left: dashed 1pt gray;
+            color: darkgreen;
+            color: #663300;
+        }
+        table.footer {
+            border: none;
+            background-color: #000000;
+            width: 100%;
+        }
+        td.footer {
+            font-weight: bold;
+            width: 95pt;
+            text-align: center;
+            vertical-align: center;
+            padding-top: 9px;
+        }
+        div.footer {
+            width: 658pt;
+            margin: auto;
+            background-color: #000;
+        }
+    </style>
+</head>
+<body>
+<div class="base">
+    <table class="menu">
+        <tr>
+            <td class="menu">
+                <a href="#" class="menu">About Bridges</a>
+            </td>
+            <td class="menu">
+                <a href="#" class="menu">Western Bridges</a>
+            </td>
+            <td class="menu">
+                <a href="#" class="menu">Resources</a>
+            </td>
+            <td class="menu">
+                <a href="#" class="menu">Site Map</a>
+            </td>
+            <td class="menu">
+                <a href="#" class="menu">Contact Us</a>
+            </td>
+        </tr>
+    </table>
+    <table class="explore">
+        <tr>
+            <td colspan="3" class="bord">&#160;</td>
+        </tr>
+        <tr>
+            <th class="explore" style="color:#000066;">About Bridges</th>
+            <th class="explore" style="color: #006600; padding-left: 12pt;">Western Bridges</th>
+            <th class="explore" style="color: #663300; padding-left: 12pt;">Resources</th>
+        </tr>
+        <tr>
+            <!-- Comment indicating the beginning of first column -->
+            <td class="section">
+                <p>Nature built the first bridges, such as Rainbow Bridge in Utah's Natural Bridges National Monument. Man-made bridges began as tree trunks laid in girder fashion.</p>
+                <p>The bridging of barriers is important to the story of human settlement. A 16th-century architect and engineer commented that "bridges should befit the spirit of community by exhibiting commodiousness, firmness and delight."</p>
+            </td>
+            <!-- Comment indicating the beginning of second column -->
+            <td class="sectiondash2">
+                <p>Engineers have modeled their work after three types of bridges — beam, arch and suspension. These designs include truss, cantilever, cable-stayed, tied-arch and movable spans.</p>
+                <p>Here you can see examples of bridge types found in the American West. These include highway bridges, trestles and footbridges. All are a vital part of the landscape that adds beauty and community to an otherwise hostile environment.</p>
+            </td>
+            <!-- Comment indicating the beginning of third column -->
+            <td class="sectiondash3">
+                <p>Certainly this Web site does not comprehensively cover the vast array of bridges that close the endless gaps of canyons and rivers that characterize the western United States. Here are a few links that offer more information about bridges, not just those of the American West but the countless marvels from around the world.</p>
+            </td>
+        </tr>
+        <tr>
+            <td class="section"><a href="#" style="font-weight: bold; color: #006; text-decoration: underline;">Explore About Bridges</a
+     
