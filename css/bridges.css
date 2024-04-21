@@ -145,3 +145,12 @@ dd {
     margin-left: 0px;
     margin-bottom: 6px;
 }
+
+/* New style for white rectangle */
+div.rectangle {
+    background-color: #fff;
+    margin: auto;
+    width: 100%;
+    padding: 20px;
+    border: 1px solid #000;
+}
