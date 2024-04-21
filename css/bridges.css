@@ -1,5 +1,5 @@
 body {
-    background-image: url(../AmericanBridges/images/beige011.jpg);
+    background-image: url(/AmericanBridges/images/beige011.jpg);
     background-color: #f5f5dc;
     margin: 36px;
     background-attachment: fixed;
@@ -81,7 +81,7 @@ div.base {
     width: 725px;
     margin: auto;
     background-color: #fff;
-    background-image: url(../AmericanBridges/images/bridge_banner.gif);
+    background-image: url(/AmericanBridges/images/bridge_banner.gif);
     background-repeat: no-repeat;
     padding: 12px;
     padding-left: 138px;
