@@ -1,5 +1,5 @@
 body {
-    background-image: url(AmericanBridges/images/beige011.jpg);
+    background-image: url(../images/beige011.jpg);
     background-color: #f5f5dc;
     margin: 36px;
     background-attachment: fixed;
@@ -13,7 +13,6 @@ p {
 }
 h2 {
     color: #000066;
-    font-size: 14pt;
 }
 ul {
     list-style-type: square;
@@ -46,7 +45,7 @@ td.menu {
     font-weight: bold;
     width: 119px;
     text-align: center;
-    vertical-align: center
+    vertical-align: center;
 }
 a.menu {
     color: #fff;
@@ -63,7 +62,6 @@ td.sectiondash2 {
 td.sectiondash3 {
     padding-left: 12pt;
     border-left: dashed 1pt gray;
-    color: darkgreen;
     color: #663300;
 }
 table.footer {
@@ -78,8 +76,25 @@ td.footer {
     vertical-align: center;
     padding-top: 9px;
 }
-
-/* New Styles */
+div.base {
+    border: 1px solid #000;
+    width: 725px;
+    margin: auto;
+    background-color: #fff;
+    background-image: url(../images/bridge_banner.gif);
+    background-repeat: no-repeat;
+    padding: 12px;
+    padding-left: 138px;
+    padding-top: 0px;
+}
+div.footer {
+    width: 658pt;
+    margin: auto;
+    background-color: #000;
+}
+ul.nested {
+    list-style-type: circle;
+}
 a:link {
     color: #630;
     font-weight: normal;
@@ -100,13 +115,12 @@ a:active {
     font-weight: normal;
     text-decoration: none;
 }
-
 a:link.menu {
     color: #fff;
     font-weight: bold;
     text-decoration: none;
 }
-a:visited.menu {
+a:visited.menu{
     color: #ccc;
     font-weight: bold;
     text-decoration: none;
@@ -120,4 +134,14 @@ a:active.menu {
     color: #f00;
     font-weight: bold;
     text-decoration: none;
+}
+dl {
+    font-size: 9pt;
+}
+dt {
+    font-weight: bold;
+}
+dd {
+    margin-left: 0px;
+    margin-bottom: 6px;
 }
