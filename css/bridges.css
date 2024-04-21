@@ -1,147 +1,172 @@
 body {
-    background-image: url(../AmericanBridges/images/beige011.jpg);
-    background-color: #f5f5dc;
-    margin: 36px;
-    background-attachment: fixed;
-    font-family: arial, helvetica;
-    font-size: 10pt;
-}
-p {
-    margin: 0;
-    margin-bottom: 10pt;
-    width: 92%;
-}
-h2 {
-    color: #000066;
-}
-ul {
-    list-style-type: square;
-}
-table.explore {
-    width: 92%;
-    background-color: #fff;
-    border: none;
-}
-td.bord {
-    border-top: solid 2pt #666;
-}
-th {
-    width: 33%;
-    margin-top: 0px;
-    margin-bottom: 6px;
-    text-align: left;
-    font-size: 12pt;
-}
-td {
-    vertical-align: top;
-    width: 33%;
-}
-table.menu {
-    background-color: transparent;
-    width: 100%;
-    margin: 66px 25px 0px 25px;
-}
-td.menu {
-    font-weight: bold;
-    width: 119px;
-    text-align: center;
-    vertical-align: center;
-}
-a.menu {
-    color: #fff;
-    text-decoration: none;
-}
-td.section {
-    color: #000066;
-}
-td.sectiondash2 {
-    padding-left: 12pt;
-    border-left: dashed 1pt gray;
-    color: #006600;
-}
-td.sectiondash3 {
-    padding-left: 12pt;
-    border-left: dashed 1pt gray;
-    color: #663300;
-}
-table.footer {
-    border: none;
-    background-color: #000000;
-    width: 100%;
-}
-td.footer {
-    font-weight: bold;
-    width: 95pt;
-    text-align: center;
-    vertical-align: center;
-    padding-top: 9px;
-}
-div.base {
-    border: 1px solid #000;
-    width: 725px;
-    margin: auto;
-    background-color: #fff;
-    background-image: url(.../AmericanBridges/images/bridge_banner.gif);
-    background-repeat: no-repeat;
-    padding: 12px;
-    padding-left: 138px;
-    padding-top: 0px;
-}
-div.footer {
-    width: 658pt;
-    margin: auto;
-    background-color: #000;
-}
-ul.nested {
-    list-style-type: circle;
-}
-a:link {
-    color: #630;
-    font-weight: normal;
-    text-decoration: none;
-}
-a:visited {
-    color: #666;
-    font-weight: normal;
-    text-decoration: none;
-}
-a:hover {
-    color: #f00;
-    font-weight: normal;
-    text-decoration: none;
-}
-a:active {
-    color: #090;
-    font-weight: normal;
-    text-decoration: none;
-}
-a:link.menu {
-    color: #fff;
-    font-weight: bold;
-    text-decoration: none;
-}
-a:visited.menu{
-    color: #ccc;
-    font-weight: bold;
-    text-decoration: none;
-}
-a:hover.menu {
-    color: #ff0;
-    font-weight: bold;
-    text-decoration: none;
-}
-a:active.menu {
-    color: #f00;
-    font-weight: bold;
-    text-decoration: none;
-}
-dl {
-    font-size: 9pt;
-}
-dt {
-    font-weight: bold;
-}
-dd {
-    margin-left: 0px;
-    margin-bottom: 6px;
-}
+						background-image: url(../AmericanBridges/images/beige011.jpg);
+						background-color: #f5f5dc;
+						background-attachment: fixed;
+						margin: 36px;
+						background-attachment: fixed;
+						font-family: arial, helvetica;
+						font-size: 10pt;
+						}
+			p { 		margin: 0pt; 
+						margin-bottom: 10pt;
+						width: 92%;						
+						}
+			h2{			color: #006;
+						font-size: 14pt;
+						}
+		td.explore{		vertical-align: top;
+						width: 33%;
+						}
+		table.explore{	width: 92%;
+						background-color: #fff;
+						border: none;
+						}
+		ul.nested {
+						list-style-type: circle; 
+						}
+			div.base{	background-image: url(../AmericanBridges/images/bridge_banner.gif);
+						background-repeat: no-repeat;
+						border: 1px solid #000;
+						width: 725px;
+						margin: auto;
+						background-color: #fff;
+						padding: 12px;
+						padding-left: 138px; 
+						padding-top: 0px;
+						}
+	table.menu { 		background-color: transparent; 
+						width: 100%; 
+						margin: 66px 25px 0px 25px; 
+						}
+	td.menu {
+						font-weight: bold;
+						font-size:11pt;
+						width: 119px;
+						text-align: center;
+						vertical-align: center;
+						}
+	td.bord { 			border-top: solid 2pt #666; }
+	
+			th {
+						width: 33%;
+						margin-top: 0px;
+						margin-bottom: 6px;
+						text-align: left;
+						font-size: 12pt;
+						}
+			td {
+						vertical-align: top;
+						width: 33%;
+						}
+	ul{					list-style-type: square;
+					}
+	a.menu {
+						color: #fff;
+						text-decoration: none;
+						}
+	div.footer { 		width: 658pt; 
+						margin: auto; 
+						background-color: #000; 
+						}
+	table.footer { 		border: none; 
+						background-color: #000000; 
+						width: 100%; 
+						} 
+	td.footer { 		font-weight: bold;
+						font-size:11pt;
+						width: 95pt; 
+						text-align: center; 
+						vertical-align: center; 
+						padding-top: 9px; 
+						}
+	td.section {		color: #000066;
+						}
+	td.sectiondash2 {	padding-left: 12pt;
+						border-left: dashed 1pt gray;
+						color: #006600; 
+						}
+	td.sectiondash3 {	padding-left: 12pt;
+						border-left: dashed 1pt gray;
+						color: darkgreen;
+						color: #663300;
+						}
+		a:link {
+						color: #630;
+						font-weight: normal;
+						text-decoration: none;
+						}
+		a:visited {
+						color: #666;
+						font-weight: normal;
+						text-decoration: none;
+						}
+		a:hover {
+						color: #f00;
+						font-weight: normal;
+						text-decoration: none;
+						}
+		a:active {
+						color: #090;
+						font-weight: normal;
+						text-decoration: none;
+						}
+		a:link.menu {
+						color: #fff;
+						font-weight: bold;
+						text-decoration: none;
+						}
+		a:visited.menu{
+						color: #ccc;
+						font-weight: bold;
+						text-decoration: none;
+						}
+		a:hover.menu {
+						color: #ff0;
+						font-weight: bold;
+						text-decoration: none;
+						}
+		a:active.menu {
+						color: #f00;
+						font-weight: bold;
+						text-decoration: none; 
+						}
+		dl {
+						font-size: 10pt;
+						}
+		dt {
+						font-weight: bold;
+						}
+		dd {
+						margin-left: 5px;
+						margin-right: 13px;
+						}
+										
+		dt a.blue {
+						font-weight: bold;
+						color: #000066;
+						text-decoration: underline;
+						}
+		dt a.green {
+						font-weight: bold;
+						color: #006600;
+						text-decoration: underline;
+						}
+		dt a.brown {
+						font-weight: bold;
+						color: #663300;
+						text-decoration: underline;
+						}
+		form {
+						padding: 12px;
+						margin-left: 12px; 
+						margin-bottom: 36px;
+						border: dashed 1px #666;
+			
+						}
+		p.form {
+						padding-left: 12pt;
+						padding-top: 6pt;
+						font-weight: bold;
+						text-align: right;
+						color: darkgreen;
+						}
