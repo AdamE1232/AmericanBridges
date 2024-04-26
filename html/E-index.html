@@ -6,7 +6,9 @@
    background-image:url(/AmericanBridges/images/beige011.jpg);
    background-attachment: fixed;
    background-color:beige;
-   font-family:arial,sans-serif;
+   font-family: arial, sans-serif;
+   font-family: arial, helvetica;
+   font-size: 10pt;
    margin:36px;
    }
  h2{ 
@@ -23,8 +25,7 @@ ul{
 td.explore {
 vertical-align: top;
 width: 33%;
-}
-		       
+} 
 table.explore {
 width: 100%;
 background-color: #fff;
@@ -39,7 +40,7 @@ td.menu {
 font-weight: bold;
 width: 119px;
 text-align: center;
-vertical-align center;
+vertical-align: center;
 }
 a.menu {
 color: #fff;
@@ -47,13 +48,15 @@ text-decoration: none;
 }
 
 div.base{  
-        border: 1px solid #000
+    border: 1px solid #000;
 	width: 725px;
 	padding: 12px;
 	background-color: #fff;
 	margin:auto;
 	background-image:url(/AmericanBridges/images/bridge_banner.gif);
 	background-repeat: no-repeat;
+	padding-left: 138px;
+	padding-top: 0;
 	}
 </style>
 
@@ -79,7 +82,7 @@ div.base{
 </tr>
 </table>
 
-<img src="/AmericanBridges/images/united_states.jpg"/>
+<img src="images/united_states.jpg"/>
 
 <h2>Welcome to Bridges of the American West</h2>
 <p>The American West is a rugged region covered with
@@ -104,17 +107,18 @@ div.base{
 <tr>
 
 <!-- Comment indicating the beginning of first column -->
-<td>
+<td class="explore">
 <p>Nature built the first bridges, such as Rainbow Bridge in Utah's
 Natural Bridges National Monument. Man-made bridges began as tree
 trunks laid in girder fashion.</p>
+
 <p>The bridging of barriers is important to the story of human
 settlement. The 16th-century architect and engineer commented that
 "bridges should befit the spirit of community by exhibiting
-commodiousness, firmness and delight.</p>
+commodiousness, firmness and delight."</p>
 </td>
 <!-- Comment indicating the beginning of second column -->
-<td>
+<td class="explore">
 <p>Engineers have modeled their work after three types of bridges
 &#151; beam, arch and suspension. These designs include truss,
 cantilever, cable-stayed, tied-arch and movable spans.</p>
@@ -123,8 +127,8 @@ West. These include highway bridges, trestles and footbridges. All
 are a vital part of the landscape that adds beauty and community to
 an otherwise hostile environment.</p>
 </td>
-<!-- Comment indicating the beginning of third column -->
-<td>
+
+<td class="explore">
 <p>Certainly this Web site does not comprehensively cover the vast
 array of bridges that close the endless gaps of canyons and rivers
 that characterize the western United States. Here are a few links
@@ -132,14 +136,17 @@ that offer more information about bridges, not just those of the
 American West but the countless marvels from around the world.</p>
 </td>
 </tr>
+
 <tr>
-<td> <a href="#">Explore About Bridges</a> </td>
-<td> <a href="#">Explore Western Bridges</a> </td>
-<td> <a href="#">Explore Resources</a> </td>
+<td class="explore"> <a href="#">Explore About Bridges</a> </td>
+<td class="explore"> <a href="#">Explore Western Bridges</a> </td>
+<td class="explore"> <a href="#">Explore Resources</a> </td>
 
 
 </tr>
 </table>
+
+
 
  </div>
 </body>
