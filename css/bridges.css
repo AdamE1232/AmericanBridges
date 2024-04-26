@@ -99,4 +99,7 @@ border-left: dashed 1pt gray;
 color: darkgreen;
 color: #663300;
 }
+ul.nested {
+list-style-type: circle;
+}
 </style>
