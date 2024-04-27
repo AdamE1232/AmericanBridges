@@ -1,42 +1,103 @@
 <html>
 <head>
-<title>Bridges of the American West</title>
-<link rel="stylesheet" type="text/css" href="css/bridges.css"/>
-<style type="text/css">
-h2{    color:#006600;
-       margin-top: 48pt;
-}
-
-</style>
-
+    <title>Bridges of the American West</title>
+    <link rel="stylesheet" type="text/css" href="css/bridges.css"/>
+    <style type="text/css">
+        h2 {
+            color:#006600;
+            margin-top: 48pt;
+        }
+        form {
+            padding: 12px;
+            margin-left: 12px; 
+            margin-bottom: 36px;
+            border: dashed 1px #666;
+            width: 500pt;
+        }
+        p.form {
+            padding-left: 12pt;
+            padding-top: 6pt;
+            font-weight: bold;
+            text-align: right;
+            color: darkgreen;
+        }
+    </style>
 </head>
 <body>
 <div class="base">
-<table class="menu" style="border: 0px;">
-<tr>
-<td class="menu">
-<a href="index.html" class=menu>Bridges&#160;Home</a>
-</td>
-<td class="menu">
-<a href="about.html" class=menu>About&#160;Bridges</a>
-</td>
-<td class="menu">
-<a href="western.html" class=menu>Western&#160;Bridges</a>
-</td>
-<td class="menu">
-<a href="resources.html" class=menu>Resources</a>
-</td>
-<td class="menu">
-<a href="index.html" class=menu>Site&#160;Map</a>
-</td>
-
-</tr>
-</table>
-<h2>Contact Us</h2>
-<p class="body">We would like to hear from you. Please fill in the following form and send us your comments.<br/> 
-If you prefer, please 
-<a href="mailto:bridges.west@email.net?subject=Inquiry&body=THIS IS NOT A REAL E-MAIL ADDRESS. DO NOT SEND MESSAGE." onClick="alert('This e-mail address is for learning purposes only. It is not a real one.')">E-mail Us</a>.</p>
+    <table class="menu" style="border: 0px;">
+        <tr>
+            <td class="menu">
+                <a href="site_map.html" class="menu">Bridges&nbsp;Home</a>
+            </td>
+            <td class="menu">
+                <a href="about.html" class="menu">About&nbsp;Bridges</a>
+            </td>
+            <td class="menu">
+                <a href="western.html" class="menu">Western&nbsp;Bridges</a>
+            </td>
+            <td class="menu">
+                <a href="resources.html" class="menu">Resources</a>
+            </td>
+            <td class="menu">
+                <a href="index.html" class="menu">Site&nbsp;Map</a>
+            </td>
+        </tr>
+    </table>
+    <h2>Contact Us</h2>
+    <p>We would like to hear from you. Please fill in the following form and send us your comments.<br/> 
+    If you prefer, please <a href="mailto:bridges.west@email.net?subject=Inquiry&amp;body=THIS IS NOT A REAL E-MAIL ADDRESS. DO NOT SEND MESSAGE." onClick="alert('This e-mail address is for learning purposes only. It is not a real one.');">E-mail Us</a>.</p>
+    <form action="response.html">
+        <table style="width: 70%; border:0; align:left;">
+            <tr>
+                <td style="vertical-align:top;">
+                    <p class="form">First/Last Name:&#160;</p>
+                </td>
+                <td>
+                    <input type="text" name="firstName" size="20" value="" />&#160;<input type="text" name="lastName" size="20" value="" />
+                </td>
+            </tr>
+            <tr>
+                <td style="vertical-align:top;">
+                    <p class="form">Mailing Address:&#160;</p>
+                </td> 
+                <td>
+                    <input type="text" name="address" size="45" value="" />
+                </td>
+            </tr>
+            <tr>
+                <td style="vertical-align:top;">
+                    <p class="form">City/State/Zip:&#160;</p>
+                </td>
+                <td>
+                    <input type="text" name="city" size="22" value="" />,&#160;<input type="text" name="state" size="2" value="" />&#160;&#160;<input type="text" name="zip" size="10" value="" />
+                </td>
+            </tr>
+            <tr>
+                <td style="vertical-align:top;">
+                    <p class="form">E-mail Address:&#160;</p>
+                </td>
+                <td>
+                    <input type="text" name="email" size="45" value="" />
+                </td>
+            </tr>
+            <tr>
+                <td style="vertical-align:top;">
+                    <p class="form">Your Comments:&#160;</p>
+                </td>
+                <td>
+                    <textarea cols="45" rows="6"></textarea>
+                </td>
+            </tr>
+            <tr>
+                <td style="vertical-align:top;"></td>
+                <td>
+                    <input type="submit" value="Send" />
+                    <input type="reset" value="Clear Form"/>
+                </td>
+            </tr> 
+        </table>
+    </form>
 </div>
-
 </body>
 </html>
