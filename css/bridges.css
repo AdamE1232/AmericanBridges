@@ -102,4 +102,45 @@ color: #663300;
 ul.nested {
 list-style-type: circle;
 }
+a:link {
+color: #630;
+font-weight: normal;
+text-decoration: none;
+}
+a:visited {
+color: #666;
+font-weight: normal;
+text-decoration: none;
+}
+a:hover {
+color: #f00;
+font-weight: normal;
+text-decoration: none;
+}
+a:active {
+color: #090;
+font-weight: normal;
+text-decoration: none;
+}
+a:link.menu {
+color: #fff;
+font-weight: bold;
+text-decoration: none;
+}
+a:visited.menu{
+color: #ccc;
+font-weight: bold;
+text-decoration: none;
+}
+a:hover.menu {
+color: #ff0;
+font-weight: bold;
+text-decoration: none;
+}
+a:active.menu {
+color: #f00;
+font-weight: bold;
+text-decoration: none; 
+}
+
 </style>
